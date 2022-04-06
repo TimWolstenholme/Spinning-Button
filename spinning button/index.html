@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Spinning button</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <script>
+        function onClick() {
+            if (confirm("You are being redirected to the donations page")) {
+                window.open('https://wonderful.co.uk/pay?ref=291693')
+            }
+        }
+    </script>
+    <div class="button">
+        <a onclick="onClick()">
+            <button class="wpay-btn wpay-btn-rounded wpay-btn-yellow wpay-btn-lg">
+                <img src="https://prod-cms.scouts.org.uk/media/13688/secondary-tiger-logo-blueyellow-rgb.png" height="250" width="250" alt="Chingu">
+            </button>
+        </a>
+        <link rel='stylesheet' href='https://wonderful.co.uk/assets/css/wonderfulbutton.css' type='text/css' />
+
+
+    </div>
+</body>
+
+</html>

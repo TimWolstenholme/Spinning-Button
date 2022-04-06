@@ -1,0 +1,32 @@
+.button {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translate(-175px, -175px);
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+button {
+    right: 0;
+    left: 0;
+    animation: spin 6.1s linear infinite;
+    margin: 0 auto;
+    transform-origin: center;
+    color: #ff0 !important;
+}
+
+button:hover {
+    opacity: 88%;
+    color: #ff6 !important;
+}
